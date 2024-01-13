@@ -190,9 +190,9 @@ int main(int argc, char* argv[])
             client = next_client;
         }
 
-        if(!continue_server()) {
-            break;
-        }
+        // if(!continue_server()) {
+        //     break;
+        // }
 
         // Simulate the variables
         simulate_backend(backend);
